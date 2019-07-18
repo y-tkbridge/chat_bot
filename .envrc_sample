@@ -1,0 +1,4 @@
+xport SLACK_API_TOKEN="key"
+export REPLE_AI_TOKEN="key"
+export REPLE_AI_BOTID="key"
+export REPLE_AI_SCENARIO="key"

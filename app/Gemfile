@@ -1,0 +1,47 @@
+#モジュールを書くときの注意
+#バージョンを記載する
+
+source 'https://rubygems.org'
+#　必ずバージョンを指定する
+ruby '2.5.1'
+
+#faye-websocketはsocket Server用
+gem 'faye-websocket'
+# 並列処理を行う
+gem 'eventmachine'
+
+# web リクエスト
+gem 'faraday'
+gem 'faraday_middleware'
+gem 'http'
+gem 'json'
+
+#faye-websocketはsocket Server用
+gem 'faye-websocket'
+# 並列処理を行う
+gem 'eventmachine'
+
+# web リクエスト
+gem 'faraday'
+gem 'faraday_middleware'
+
+
+#モジュールを書くときの注意
+#バージョンを記載する
+
+
+#　必ずバージョンを指定する
+
+# --- Slack mail ---
+
+# mail
+gem 'rubysl-net-imap', '~> 2.0', '>= 2.0.1'
+
+#mail
+gem 'mail'
+
+
+
+#--- debug ---
+
+gem 'pry-byebug'

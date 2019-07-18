@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  ruby:
+    build: .
+    container_name: chatbot
+    environment:
+      SLACK_API_TOKEN: ${SLACK_API_TOKEN}
+      REPLE_AI_TOKEN: ${REPLE_AI_TOKEN}
+      REPLE_AI_BOTID: ${REPLE_AI_BOTID}
+      REPLE_AI_SCENARIO: ${REPLE_AI_SCENARIO}
+    volumes:
+      - ./app:/app
+    tty: true
